@@ -25,10 +25,12 @@ app.use("/api/auth", authRoutes);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://cinemate-1.onrender.com", // ✅ your frontend origin
     methods: ["GET", "POST"],
+    credentials: true,
   },
 });
+
 
 const socketToRoom = {};
 const socketToUsername = {};
