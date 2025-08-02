@@ -4,7 +4,11 @@
 /node_modules
 client/node_modules/
 server/node_modules/
+<<<<<<< HEAD
 server/.env
+=======
+/server/.env
+>>>>>>> 8e7fa60342fc77b354c956db94ff21c7b58b8c4d
 
 /.pnp
 .pnp.js
